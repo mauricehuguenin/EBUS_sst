@@ -4,11 +4,11 @@
 - Benguela
 - Peru
 
-**multiply_masks.sh**
+**[multiply_masks.sh](multiply_masks.sh)**
 1. multiply remapped output data with EBUS masks (Canary, California, Peru, Benguela)
 2. remove superfluous latitudinal and longitudinal bands which have only NaN values to remove data size
 
-**Mixed_layer_depth_OHC_budget_with_interpolated_data_reduced.ipynb**
+**[Mixed_layer_depth_OHC_budget_with_interpolated_data_reduced.ipynb](Mixed_layer_depth_OHC_budget_with_interpolated_data_reduced.ipynb)**
 1. select only data above the mixed layer
 2. verify budget closure by calculating the residual between dMLT/dt (mixed layer temperature tendency) and the sum of the right-hand-side variables that include
 - advection (in all three directions), diffusion (lateral + vertical), radiation (solar + non-solar)
