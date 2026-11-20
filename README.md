@@ -12,4 +12,5 @@
 1. select only data above the mixed layer
 2. verify budget closure by calculating the residual between dMLT/dt (mixed layer temperature tendency) and the sum of the right-hand-side variables that include
 - advection (in all three directions), diffusion (lateral + vertical), radiation (solar + non-solar)
+3. write all these files into net .netcdf files with metadata
 3. create time series of these budget terms with associated linear trends over 1950-2018 including significance statements
